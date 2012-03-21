@@ -1,2 +1,3 @@
 require 'nagctl'
-run Nagctl::App
+config_file 'config/nagctl.yml'
+run Sinatra::Application
