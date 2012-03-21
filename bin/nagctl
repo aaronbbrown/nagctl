@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'nagctl'
+
+Nagctl::App.run! #if Nagctl::App.app_file == $0
